@@ -1,4 +1,5 @@
 const Home = '/'
-const NotFound = '*';
+const NOTFOUND = '*';
+const TERMSCONDITION = "/Terms&Conditions"
 
-module.exports = {Home,NotFound}
+module.exports = {Home,NOTFOUND, TERMSCONDITION}

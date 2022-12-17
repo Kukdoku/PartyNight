@@ -1,12 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import {Home} from '../enventory/pages'
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
     <div className="container">
-        <a className="navbar-brand" href="index.html">
+        <Link className="navbar-brand" to={Home}>
             Festava Live
-        </a>
+        </Link>
 
         <a href="ticket.html" className="btn custom-btn d-lg-none ms-auto me-4">Buy Ticket</a>
 
@@ -44,7 +46,7 @@ function Navbar() {
             <a href="ticket.html" className="btn custom-btn d-lg-block d-none">Buy Ticket</a>
         </div>
     </div>
-</nav>
+    </nav>
   )
 }
 

@@ -33,7 +33,7 @@
   }
   
   body {
-    background-color: var(--white-color);
+    background-color:  var(--dark-color);
     font-family: var(--body-font-family); 
   }
   
@@ -47,7 +47,7 @@
   h4,
   h5,
   h6 {
-    color: var(--dark-color);
+    color: var(--white-color);
   }
   
   h1,
